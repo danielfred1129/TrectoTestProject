@@ -1,0 +1,119 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/developedapps/!svn/ver/4/PoleDanceTemplate/SimpleBasedText/Classes/Location/AFNetworking
+END
+AFHTTPClient.m
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/developedapps/!svn/ver/4/PoleDanceTemplate/SimpleBasedText/Classes/Location/AFNetworking/AFHTTPClient.m
+END
+AFNetworking.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/developedapps/!svn/ver/4/PoleDanceTemplate/SimpleBasedText/Classes/Location/AFNetworking/AFNetworking.h
+END
+AFXMLRequestOperation.h
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/developedapps/!svn/ver/4/PoleDanceTemplate/SimpleBasedText/Classes/Location/AFNetworking/AFXMLRequestOperation.h
+END
+AFNetworkActivityIndicatorManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/developedapps/!svn/ver/4/PoleDanceTemplate/SimpleBasedText/Classes/Location/AFNetworking/AFNetworkActivityIndicatorManager.h
+END
+UIImageView+AFNetworking.h
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/developedapps/!svn/ver/4/PoleDanceTemplate/SimpleBasedText/Classes/Location/AFNetworking/UIImageView+AFNetworking.h
+END
+AFXMLRequestOperation.m
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/developedapps/!svn/ver/4/PoleDanceTemplate/SimpleBasedText/Classes/Location/AFNetworking/AFXMLRequestOperation.m
+END
+AFURLConnectionOperation.h
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/developedapps/!svn/ver/4/PoleDanceTemplate/SimpleBasedText/Classes/Location/AFNetworking/AFURLConnectionOperation.h
+END
+AFNetworkActivityIndicatorManager.m
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/developedapps/!svn/ver/4/PoleDanceTemplate/SimpleBasedText/Classes/Location/AFNetworking/AFNetworkActivityIndicatorManager.m
+END
+AFJSONRequestOperation.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/developedapps/!svn/ver/4/PoleDanceTemplate/SimpleBasedText/Classes/Location/AFNetworking/AFJSONRequestOperation.h
+END
+UIImageView+AFNetworking.m
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/developedapps/!svn/ver/4/PoleDanceTemplate/SimpleBasedText/Classes/Location/AFNetworking/UIImageView+AFNetworking.m
+END
+AFURLConnectionOperation.m
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/developedapps/!svn/ver/4/PoleDanceTemplate/SimpleBasedText/Classes/Location/AFNetworking/AFURLConnectionOperation.m
+END
+AFJSONRequestOperation.m
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/developedapps/!svn/ver/4/PoleDanceTemplate/SimpleBasedText/Classes/Location/AFNetworking/AFJSONRequestOperation.m
+END
+AFHTTPRequestOperation.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/developedapps/!svn/ver/4/PoleDanceTemplate/SimpleBasedText/Classes/Location/AFNetworking/AFHTTPRequestOperation.h
+END
+AFPropertyListRequestOperation.h
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/developedapps/!svn/ver/4/PoleDanceTemplate/SimpleBasedText/Classes/Location/AFNetworking/AFPropertyListRequestOperation.h
+END
+AFImageRequestOperation.h
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/developedapps/!svn/ver/4/PoleDanceTemplate/SimpleBasedText/Classes/Location/AFNetworking/AFImageRequestOperation.h
+END
+AFHTTPRequestOperation.m
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/developedapps/!svn/ver/4/PoleDanceTemplate/SimpleBasedText/Classes/Location/AFNetworking/AFHTTPRequestOperation.m
+END
+AFHTTPClient.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/developedapps/!svn/ver/4/PoleDanceTemplate/SimpleBasedText/Classes/Location/AFNetworking/AFHTTPClient.h
+END
+AFPropertyListRequestOperation.m
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/developedapps/!svn/ver/4/PoleDanceTemplate/SimpleBasedText/Classes/Location/AFNetworking/AFPropertyListRequestOperation.m
+END
+AFImageRequestOperation.m
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/developedapps/!svn/ver/4/PoleDanceTemplate/SimpleBasedText/Classes/Location/AFNetworking/AFImageRequestOperation.m
+END

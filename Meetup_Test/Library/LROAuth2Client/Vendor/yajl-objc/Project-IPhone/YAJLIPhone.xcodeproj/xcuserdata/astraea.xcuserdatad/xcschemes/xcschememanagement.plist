@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>CombineLibs.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+		<key>Tests (4.0).xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>7</integer>
+		</dict>
+		<key>Tests.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>YAJLIPhone (Device-3.0).xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>YAJLIPhone (Device-4.0).xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
+		<key>YAJLIPhone (Simulator-3.0).xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>YAJLIPhone (Simulator-4.0).xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>6</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>0065975811BEEF4000E89ABD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0065977F11BEEF4800E89ABD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>006597AE11BEEF5400E89ABD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>00C4054C0FE77760003CE908</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>00C405CE0FE779BF003CE908</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>00C405ED0FE779F2003CE908</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D2AAC07D0554694100DB518D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
