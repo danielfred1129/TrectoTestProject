@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "Article.h"
+#import "AsyncImageView.h"
 
 @interface ArticleDetailVC : UIViewController
 

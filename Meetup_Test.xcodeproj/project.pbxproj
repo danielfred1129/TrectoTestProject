@@ -23,6 +23,7 @@
 		60ECA25D1A3912B20080475A /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 60ECA2541A3912B20080475A /* UIImageView+AFNetworking.m */; };
 		60ECA25F1A3914E50080475A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60ECA25E1A3914E50080475A /* UIKit.framework */; };
 		60ECA2611A3915B80080475A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60ECA2601A3915B80080475A /* SystemConfiguration.framework */; };
+		60FDFD361A3A0E7F00AA71E6 /* AsyncImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 60FDFD351A3A0E7F00AA71E6 /* AsyncImageView.m */; };
 		60FE52D51A38AEDD00C2BEC8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 60FE52D41A38AEDD00C2BEC8 /* main.m */; };
 		60FE52D81A38AEDD00C2BEC8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 60FE52D71A38AEDD00C2BEC8 /* AppDelegate.m */; };
 		60FE52DE1A38AEDD00C2BEC8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60FE52DC1A38AEDD00C2BEC8 /* Main.storyboard */; };
@@ -133,6 +134,8 @@
 		60ECA2541A3912B20080475A /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
 		60ECA25E1A3914E50080475A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		60ECA2601A3915B80080475A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		60FDFD341A3A0E7F00AA71E6 /* AsyncImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncImageView.h; sourceTree = "<group>"; };
+		60FDFD351A3A0E7F00AA71E6 /* AsyncImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncImageView.m; sourceTree = "<group>"; };
 		60FE52CF1A38AEDD00C2BEC8 /* Meetup_Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Meetup_Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60FE52D31A38AEDD00C2BEC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		60FE52D41A38AEDD00C2BEC8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -323,6 +326,7 @@
 		60ECA2401A3912B20080475A /* Library */ = {
 			isa = PBXGroup;
 			children = (
+				60FDFD331A3A0E7F00AA71E6 /* AsyncImageView */,
 				8EDE876E1A3958FD0050999D /* MBProgressHUD */,
 				8EDE87511A3954790050999D /* AFFNetworking */,
 				8EDE86D91A3943220050999D /* ASIHttpRequest */,
@@ -357,6 +361,15 @@
 				60ECA2541A3912B20080475A /* UIImageView+AFNetworking.m */,
 			);
 			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		60FDFD331A3A0E7F00AA71E6 /* AsyncImageView */ = {
+			isa = PBXGroup;
+			children = (
+				60FDFD341A3A0E7F00AA71E6 /* AsyncImageView.h */,
+				60FDFD351A3A0E7F00AA71E6 /* AsyncImageView.m */,
+			);
+			path = AsyncImageView;
 			sourceTree = "<group>";
 		};
 		60FE52C61A38AEDD00C2BEC8 = {
@@ -777,6 +790,7 @@
 				8EDE87231A3943220050999D /* ASIS3ServiceRequest.m in Sources */,
 				8EDE87681A3954790050999D /* AFFJSONRequestOperation.m in Sources */,
 				8EDE870E1A3943220050999D /* ASIAuthenticationDialog.m in Sources */,
+				60FDFD361A3A0E7F00AA71E6 /* AsyncImageView.m in Sources */,
 				60D862C21A38BCFE00A596ED /* MainViewVC.m in Sources */,
 				8EDE86D21A39406E0050999D /* yajl_gen.c in Sources */,
 				8EDE86D11A39406E0050999D /* yajl_encode.c in Sources */,

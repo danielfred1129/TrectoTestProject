@@ -19,6 +19,7 @@
 @interface MainViewVC ()
 {
     MBProgressHUD *HUD;
+    NSArray *arrayURI;
 }
 @end
 
@@ -30,6 +31,12 @@
     [self.navigationItem setHidesBackButton:YES animated:YES];
     self.searchBar.showsCancelButton = NO;
     self.arrayEvents = [NSMutableArray new];
+    arrayURI = @[@"http://upload.wikimedia.org/wikipedia/commons/5/54/Google_Mountain_View_campus_dinosaur_skeleton_'Stan'.jpg",
+                @"http://static4.businessinsider.com/image/534c28a2eab8ead94f263a7d/google-buys-drone-company-titan-aerospace.jpg",
+                 @"http://media.npr.org/assets/img/2013/05/12/google_glass_next_wide-e40daf1be811bf34700fd0379b2c64e4f0bb11ea.jpg",
+                 @"http://static6.businessinsider.com/image/52c6edd169beddbe1f39f0e6/see-what-google-glass-apps-will-actually-look-like.jpg",
+                 @"http://media1.s-nbcnews.com/i/newscms/2014_08/202526/140221-google-glass-jhc-1730_01e477c41457035fca77e169019bb530.jpg",
+                 @"http://cnet4.cbsistatic.com/hub/i/r/2013/05/01/1fefba01-67c3-11e3-a665-14feb5ca9861/thumbnail/770x433/927dd9d4acc1a88f05767fb4c3187e95/GoogleGlass_35339166_03.jpg"];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -64,7 +71,7 @@
                                                   Article *newArticle = [Article new];
                                                   newArticle.articleId = [article objectForKey:@"id"];
                                                   newArticle.articleContent = [article objectForKey:@"name"];
-                                                  newArticle.articleImageURL = [NSString stringWithFormat:@"http://placehold.it/1700x1700&text=ArticleImage%lu", (unsigned long)[self.arrayEvents count]]; // @"http://static.adzerk.net/Advertisers/6a84d696ad6c4679804e4923a617ade4.png";
+                                                  newArticle.articleImageURL = [arrayURI objectAtIndex:([self.arrayEvents count] % 6)]; //[NSString stringWithFormat:@"http://placehold.it/1700x1700&text=ArticleImage%lu", (unsigned long)[self.arrayEvents count]]; // @"http://static.adzerk.net/Advertisers/6a84d696ad6c4679804e4923a617ade4.png";
                                                   [self.arrayEvents addObject:newArticle];
                                               }
                                               [self.tableView reloadData];
