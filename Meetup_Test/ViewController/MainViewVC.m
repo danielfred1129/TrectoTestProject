@@ -64,7 +64,7 @@
                                                   Article *newArticle = [Article new];
                                                   newArticle.articleId = [article objectForKey:@"id"];
                                                   newArticle.articleContent = [article objectForKey:@"name"];
-                                                  newArticle.articleImageURL = @"http://static.adzerk.net/Advertisers/6a84d696ad6c4679804e4923a617ade4.png";
+                                                  newArticle.articleImageURL = [NSString stringWithFormat:@"http://placehold.it/1700x1700&text=ArticleImage%lu", (unsigned long)[self.arrayEvents count]]; // @"http://static.adzerk.net/Advertisers/6a84d696ad6c4679804e4923a617ade4.png";
                                                   [self.arrayEvents addObject:newArticle];
                                               }
                                               [self.tableView reloadData];
